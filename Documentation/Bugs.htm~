@@ -1,0 +1,22 @@
+<Title>Knownbugs</Title>
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<TITLE>Known Bugs</TITLE>
+</HEAD>
+<BODY>
+Bugs?  What bugs? There are no bugs.  Those are features. <p><p>
+
+Well, maybe there a few. <p><p>
+
+Known and possible bugs:
+<ul>
+<li> The autodetection system for the format type for the DSA/11k series scopes is not guaranteed to always work.  I haven't seen it fail, but it might.  Manually set the format type if this is a problem. </li>
+<li> The serial port download code (on Windows at least) has had problems.  They went away for reasons that are not clear. </li>
+<li> The serial port download code has not been tested on Linux (it should work though)</li>
+<li> Recent builds have not had the serial port code tested on Windows </li>
+</ul>
+
+</BODY>
+</HTML>

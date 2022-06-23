@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxPanel" name="MainConfigPage">
+		<id_arg>0</id_arg>
+		<object class="wxFlexGridSizer" variable="FlexGridSizer1" member="no">
+			<cols>1</cols>
+			<rows>3</rows>
+			<object class="sizeritem">
+				<object class="wxStaticBoxSizer" variable="StaticBoxSizer1" member="no">
+					<label>Serial port</label>
+					<object class="sizeritem">
+						<object class="wxGridSizer" variable="GridSizer2" member="no">
+							<cols>3</cols>
+							<rows>2</rows>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE1" variable="serialPortSpeeds" member="yes">
+									<content>
+										<item>150</item>
+										<item>300</item>
+										<item>600</item>
+										<item>1200</item>
+										<item>2400</item>
+										<item>4800</item>
+										<item>9600</item>
+										<item>19200</item>
+										<item>38400</item>
+										<item>57600</item>
+										<item>115200</item>
+										<item>230400</item>
+										<item>460800</item>
+										<item>9321600</item>
+									</content>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE2" variable="serialPortSelection" member="yes">
+									<content>
+										<item>Com 1</item>
+										<item>Com 2</item>
+										<item>Com 3</item>
+										<item>Com 4</item>
+										<item>Com 5</item>
+										<item>Com 6</item>
+										<item>Com 7</item>
+										<item>Com 8</item>
+										<item>Com 9</item>
+										<item>Com 10</item>
+										<item>Com 11</item>
+										<item>Com 12</item>
+										<item>Com 13</item>
+										<item>Com 14</item>
+										<item>Com 15</item>
+										<item>Com 16</item>
+									</content>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticBoxSizer" variable="StaticBoxSizer3" member="no">
+									<label>Data Bits</label>
+									<object class="sizeritem">
+										<object class="wxChoice" name="ID_CHOICE4" variable="dataBitsSelection" member="yes">
+											<content>
+												<item>5</item>
+												<item>6</item>
+												<item>7</item>
+												<item>8</item>
+												<item>16</item>
+											</content>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+										<option>1</option>
+									</object>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticBoxSizer" variable="StaticBoxSizer2" member="no">
+									<label>Stop Bits</label>
+									<object class="sizeritem">
+										<object class="wxChoice" name="ID_CHOICE5" variable="stopBitsSelection" member="yes">
+											<content>
+												<item>0</item>
+												<item>1</item>
+											</content>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+										<option>1</option>
+									</object>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxChoice" name="ID_CHOICE3" variable="parityChoiceBox" member="yes">
+									<content>
+										<item>No Parity</item>
+										<item>Even Parity</item>
+										<item>Odd Parity</item>
+									</content>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxCheckBox" name="ID_CHECKBOX2" variable="selectXonXoff" member="yes">
+									<label>XonXoff</label>
+								</object>
+								<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticBoxSizer" variable="StaticBoxSizer4" member="no">
+					<label>Autosave Settings</label>
+					<object class="sizeritem">
+						<object class="wxFlexGridSizer" variable="FlexGridSizer2" member="no">
+							<cols>1</cols>
+							<object class="sizeritem">
+								<object class="wxCheckBox" name="ID_CHECKBOX1" variable="AutosaveCheckbox" member="yes">
+									<label>Autosave Pictures</label>
+								</object>
+								<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticBoxSizer" variable="StaticBoxSizer5" member="no">
+									<label>Picture name format</label>
+									<object class="sizeritem">
+										<object class="wxFlexGridSizer" variable="FlexGridSizer3" member="no">
+											<cols>4</cols>
+											<object class="sizeritem">
+												<object class="wxButton" name="ID_AutoSaveHelpButton" variable="AutosaveHelpButton" member="yes">
+													<label>?</label>
+													<size>20,-1</size>
+													<tooltip>Format string may be any combination&#x0A;of legal characters for the platform.&#x0A;Invalid characters will be replaced with __.&#x0A;Value substitutions are used.&#x0A;Valid substitutions are:&#x0A;&#x0A;%% for the % character&#x0A;%d for the current date&#x0A;%t for the current time&#x0A;%y for the current year&#x0A;%M for the current month&#x0A;%h for the current hour&#x0A;%m for the current minute&#x0A;%s for the current second&#x0A;&#x0A;All autosave file names will have&#x0A;a number appended (the first file&#x0A;will be yourName 01, the second&#x0A;yourName 02, etc)</tooltip>
+													<handler function="OnAutosaveHelpButtonClick" entry="EVT_BUTTON" />
+												</object>
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+											<object class="sizeritem">
+												<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="FormatTextBox" member="yes">
+													<value>Text</value>
+													<maxlength>50</maxlength>
+													<size>150,-1</size>
+													<tooltip>Format string may be any combination&#x0A;of legal characters for the platform.&#x0A;Invalid characters will be replaced with __.&#x0A;Value substitutions are used.&#x0A;Valid substitutions are:&#x0A;&#x0A;%% for the % character&#x0A;%d for the current date&#x0A;%t for the current time&#x0A;%y for the current year&#x0A;%M for the current month&#x0A;%h for the current hour&#x0A;%m for the current minute&#x0A;%s for the current second&#x0A;&#x0A;All autosave file names will have&#x0A;a number appended (the first file&#x0A;will be yourName 01, the second&#x0A;yourName 02, etc)</tooltip>
+													<style>wxTE_LEFT</style>
+												</object>
+												<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+											<object class="sizeritem">
+												<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+													<label>##</label>
+													<minsize>0,0</minsize>
+												</object>
+												<flag>wxALL|wxFIXED_MINSIZE|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+											<object class="sizeritem">
+												<object class="wxChoice" name="ID_CHOICE6" variable="AutoSaveExtension" member="yes">
+													<content>
+														<item>.png</item>
+														<item>.bmp</item>
+														<item>.jpg</item>
+														<item>.tiff</item>
+														<item>.pcx</item>
+													</content>
+												</object>
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+										<option>1</option>
+									</object>
+								</object>
+								<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+							<object class="sizeritem">
+								<object class="wxStaticBoxSizer" variable="StaticBoxSizer6" member="no">
+									<label>Autosave location</label>
+									<object class="sizeritem">
+										<object class="wxFlexGridSizer" variable="FlexGridSizer4" member="no">
+											<cols>2</cols>
+											<object class="sizeritem">
+												<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="LocationTextBox" member="yes">
+													<value>Text</value>
+													<size>250,-1</size>
+												</object>
+												<flag>wxALL|wxEXPAND|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+											<object class="sizeritem">
+												<object class="wxButton" name="ID_BUTTON1" variable="AutoSaveChooseLocation" member="yes">
+													<label>..</label>
+													<size>20,-1</size>
+													<handler function="OnAutoSaveChooseLocationClick" entry="EVT_BUTTON" />
+												</object>
+												<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+												<border>5</border>
+												<option>1</option>
+											</object>
+										</object>
+										<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+										<border>5</border>
+										<option>1</option>
+									</object>
+								</object>
+								<flag>wxALL|wxEXPAND|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+								<border>5</border>
+								<option>1</option>
+							</object>
+						</object>
+						<flag>wxALL|wxALIGN_TOP|wxALIGN_CENTER_HORIZONTAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticBoxSizer" variable="StaticBoxSizer7" member="no">
+					<label>Logging</label>
+					<object class="sizeritem">
+						<object class="wxChoice" name="ID_CHOICE7" variable="LogChoice" member="yes">
+							<content>
+								<item>Normal (errors messages only)</item>
+								<item>Log to File</item>
+								<item>Advanced log (verbose with data)</item>
+							</content>
+							<selection>0</selection>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

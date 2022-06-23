@@ -1,0 +1,13 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=HelpFile.chm
+Contents file=Table of Contents.hhc
+Default topic=Introduction.htm
+Display compile progress=No
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=Scope Transfer Help
+
+
+[INFOTYPES]
+

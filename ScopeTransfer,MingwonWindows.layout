@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="DSA_11k.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="20382" topLine="510" />
+	</File>
+	<File name="DSA_11k.h" open="0" top="0" tabpos="0">
+		<Cursor position="42" topLine="0" />
+	</File>
+	<File name="MainConfigPage.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="9995" topLine="134" />
+	</File>
+	<File name="ScopeTransferApp.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1681" topLine="29" />
+	</File>
+	<File name="ScopeTransferApp.h" open="0" top="0" tabpos="0">
+		<Cursor position="497" topLine="0" />
+	</File>
+	<File name="ScopeTransferMain.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="375" topLine="72" />
+	</File>
+	<File name="SerialInputStream.cpp" open="1" top="1" tabpos="5">
+		<Cursor position="5024" topLine="118" />
+	</File>
+	<File name="SerialInputStream.h" open="0" top="0" tabpos="0">
+		<Cursor position="3217" topLine="74" />
+	</File>
+	<File name="binHexTextStream.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="binHexTextStream.h" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="configDialog.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="11355" topLine="77" />
+	</File>
+	<File name="configDialog.h" open="0" top="0" tabpos="0">
+		<Cursor position="1001" topLine="11" />
+	</File>
+	<File name="copyInputStream.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="2046" topLine="66" />
+	</File>
+	<File name="copyInputStream.h" open="0" top="0" tabpos="7">
+		<Cursor position="939" topLine="10" />
+	</File>
+	<File name="ctb\expect.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="375" topLine="108" />
+	</File>
+	<File name="ctb\iobase.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2163" topLine="9" />
+	</File>
+	<File name="ctb\match.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="434" topLine="99" />
+	</File>
+	<File name="ctb\win32\serport.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4266" topLine="0" />
+	</File>
+	<File name="ctb\win32\timer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="414" topLine="53" />
+	</File>
+	<File name="mainEventHandlers.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="830" topLine="9" />
+	</File>
+	<File name="miscellaneousUtilities.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="7357" topLine="163" />
+	</File>
+	<File name="miscellaneousUtilities.h" open="1" top="0" tabpos="8">
+		<Cursor position="94" topLine="0" />
+	</File>
+	<File name="scopeTransfer.rc" open="0" top="0" tabpos="2">
+		<Cursor position="856" topLine="0" />
+	</File>
+	<File name="wx_pch.h" open="0" top="0" tabpos="0">
+		<Cursor position="1202" topLine="16" />
+	</File>
+</CodeBlocks_layout_file>

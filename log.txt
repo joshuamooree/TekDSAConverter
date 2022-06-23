@@ -1,0 +1,6 @@
+17:35:50: Done making GUI
+17:35:50: Setup Help system
+17:35:50: Made DSA object
+17:36:01: Received OnConfig event.  Displaying config page...
+17:36:04: Log Enabled, Level: 2290996
+17:36:04: Log Enabled, Level: 2290996
